@@ -33,8 +33,8 @@ const Home: React.FC<{ posts: Post[] }> = (props) => {
 
 	return (
 		<div className={styles.container}>
-			<h1>BondSブログへようこそ</h1>
-      <h2>技術と言語と繋がり</h2>
+			<h1>GingerlyJam</h1>
+      <h2>Technology, Languistic and Jam</h2>
 			<ul>
 				{posts.map((post, index) => {
 					return (
